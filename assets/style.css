@@ -80,6 +80,7 @@ footer{
 #fetch{
     color: saddlebrown;
 }
+
 #description{
     font-size: 20px;
     text-align:center;
@@ -88,4 +89,40 @@ footer{
     width: 500px;
     height: 350px;
     background: #528096;
+}
+
+@media only screen and (max-width:608px) {
+    #Searchbar{
+    flex-wrap: nowrap;
+    height: 40px;
+    width: 420px;
+}
+p{font-size: 16px;} 
+#description{
+   
+    width: 400px;
+    height: 250px;
+    
+}
+
+#searh-history{
+    font-size: 16px;
+    text-align:center;
+    border-radius: 10px;
+    margin:20px;
+    width: 400px;
+    height: 250px;
+    background: #c0e1f0;}
+
+   
+      
+       h1{font-size: 1.5em;}
+
+       #tvScreen{
+
+        width: 400px;
+        height: 250px;
+    
+        }
+       
 }
