@@ -97,7 +97,10 @@ footer{
     height: 40px;
     width: 420px;
 }
-p{font-size: 16px;} 
+p{
+    font-size: 16px;
+} 
+
 #description{
    
     width: 400px;
@@ -125,4 +128,58 @@ p{font-size: 16px;}
     
         }
        
+}
+
+@media only screen and (max-width:488px) {
+    #Searchbar{
+        height: 40px;
+        width: 200px;
+    }
+
+   header{
+    width:100%;
+    padding:30px;
+}
+
+    footer{width:100%;
+        padding:30px;}
+
+    #searh-history{
+        margin:20px;
+        width: 300px;
+        height: 250px;
+        }
+    
+    #description{
+        margin:20px;
+        width: 300px;
+        height: 250px;
+    }
+
+#tvScreen{
+  
+    width: 300px;
+    height: 150px;
+
+}
+
+}
+
+
+@media only screen and (max-width:333px) {
+    header{
+        width:100%;
+        padding:70px;
+    }
+
+    footer{width:100%;
+    padding:70px;
+}
+
+#tvScreen{
+  
+    width: 220px;
+    height: 150px;
+
+}
 }
