@@ -5,7 +5,9 @@
 
 *{
     font-family: "Acme";
-    margin: 0; }
+    margin: 0;
+}
+
 body{
     display:flex;
     flex-direction: column;
@@ -19,8 +21,7 @@ header{
     top:0;
     margin: 0;
     padding: 50px;
-   
-    text-align:center ;
+    text-align:center;
 }
 
 #Searchbar{
@@ -39,7 +40,8 @@ header{
     border-radius:0px 5px 5px 0px;
     margin-left: -6px;
     width: 64px;
-    height: 46px;}
+    height: 46px;
+}
 
 #searchbox{
     flex-wrap: nowrap;
@@ -53,7 +55,8 @@ footer{
     bottom:0;
     padding: 50px;
     background-color: deepskyblue;
-    text-align:center ;}
+    text-align:center ;
+}
 
 #tvScreen{
     margin:20px;
@@ -64,7 +67,7 @@ footer{
     height: 350px;
     background: #0e0b01;
     border-radius: 60% / 20%;
-    }
+}
 
 #searh-history{
     font-size: 20px;
@@ -73,10 +76,13 @@ footer{
     margin:20px;
     width: 500px;
     height: 350px;
-    background: #c0e1f0;}
+    background: #c0e1f0;
+}
+
 #film{
     color: darkslategray;
 }
+
 #fetch{
     color: saddlebrown;
 }
@@ -96,37 +102,40 @@ footer{
     flex-wrap: nowrap;
     height: 40px;
     width: 420px;
-}
-p{
-    font-size: 16px;
-} 
+    }
+    p{
+        font-size: 16px;
+    } 
 
-#description{
+    #description{
    
-    width: 400px;
-    height: 250px;
+        width: 400px;
+        height: 250px;
     
-}
+    }
 
-#searh-history{
-    font-size: 16px;
-    text-align:center;
-    border-radius: 10px;
-    margin:20px;
-    width: 400px;
-    height: 250px;
-    background: #c0e1f0;}
+    #searh-history{
+        font-size: 16px;
+        text-align:center;
+        border-radius: 10px;
+        margin:20px;
+        width: 400px;
+        height: 250px;
+        background: #c0e1f0;
+    }
 
    
       
-       h1{font-size: 1.5em;}
+    h1{
+        font-size: 1.5em;
+    }
 
-       #tvScreen{
+    #tvScreen{
 
         width: 400px;
         height: 250px;
     
-        }
+    }
        
 }
 
@@ -136,19 +145,21 @@ p{
         width: 200px;
     }
 
-   header{
-    width:100%;
-    padding:30px;
-}
+    header{
+        width:100%;
+        padding:30px;
+    }
 
-    footer{width:100%;
-        padding:30px;}
+    footer{
+        width:100%;
+        padding:30px;
+    }
 
     #searh-history{
-        margin:20px;
+         margin:20px;
         width: 300px;
         height: 250px;
-        }
+    }
     
     #description{
         margin:20px;
@@ -156,12 +167,12 @@ p{
         height: 250px;
     }
 
-#tvScreen{
+    #tvScreen{
   
-    width: 300px;
-    height: 150px;
+        width: 300px;
+        height: 150px;
 
-}
+    }
 
 }
 
@@ -172,14 +183,16 @@ p{
         padding:70px;
     }
 
-    footer{width:100%;
-    padding:70px;
-}
+    footer{
+        width:100%;
+        padding:70px;
+    }
 
-#tvScreen{
+    #tvScreen{
   
-    width: 220px;
-    height: 150px;
+        width: 220px;
+        height: 150px;
 
-}
+    }
+
 }
