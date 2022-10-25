@@ -1,3 +1,4 @@
+/*added the font style to give a cartoonish like feel to the clever name film fetch*/
 @font-face {
     font-family: "acme";
     src: url("Acme-Regular.ttf");
@@ -7,7 +8,7 @@
     font-family: "Acme";
     margin: 0;
 }
-
+/*gave the background color a linear gradient to give the webpage an appealing look to the user*/
 body{
     display:flex;
     flex-direction: column;
@@ -15,7 +16,7 @@ body{
     background-image: linear-gradient( dodgerblue, rgb(255, 255, 255));
 
 }
-
+/*gave the header a linear gradient a different gradient format differentiate from the header and body */
 header{
     background-image: linear-gradient( rgb(255, 255, 255), deepskyblue);
     top:0;
@@ -57,7 +58,8 @@ footer{
     background-color: deepskyblue;
     text-align:center ;
 }
-
+/*this is where the api text is going to be displayed in a tv like element
+ a clever play on the movie theme of webpage*/
 #tvScreen{
     margin:20px;
     border: 10px solid saddlebrown;
@@ -78,11 +80,11 @@ footer{
     height: 350px;
     background: #c0e1f0;
 }
-
+/*change the different color to play on popular color theme */
 #film{
     color: darkslategray;
 }
-
+/*change both text to different popular color theme in movies*/
 #fetch{
     color: saddlebrown;
 }
@@ -96,7 +98,7 @@ footer{
     height: 350px;
     background: #528096;
 }
-
+/*media query used to allow user to access the webpage in different devices*/
 @media only screen and (max-width:608px) {
     #Searchbar{
     flex-wrap: nowrap;
