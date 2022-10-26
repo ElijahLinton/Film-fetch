@@ -43,10 +43,12 @@ h2 {
     flex-wrap: nowrap;
     height: 40px;
     width: 538px;
+    
 }
 
 #Searchbar:hover{
     background-color: whitesmoke;
+    cursor: pointer;
 }
 
 #searchMovie{
@@ -55,7 +57,9 @@ h2 {
     border-radius:0px 5px 5px 0px;
     margin-left: -6px;
     width: 64px;
-    height: 46px;}
+    height: 46px;
+    cursor: pointer;
+}
 
 #searchbox{
     flex-wrap: nowrap;
