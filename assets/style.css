@@ -5,17 +5,18 @@
 
 *{
     font-family: "Acme";
-    margin: 0; }
+    margin: 0;}
+    
 body{
     display:flex;
     flex-direction: column;
     justify-content: space-around;
-    background-image: linear-gradient( dodgerblue, rgb(255, 255, 255));
+    background-image: linear-gradient( deepskyblue, purple);
 
 }
 
 header{
-    background-image: linear-gradient( rgb(255, 255, 255), deepskyblue);
+    background-image: linear-gradient(purple,deepskyblue);
     top:0;
     margin: 0;
     padding: 50px;
@@ -27,10 +28,6 @@ header{
     flex-wrap: nowrap;
     height: 40px;
     width: 538px;
-}
-
-#Searchbar:hover{
-    background-color: whitesmoke;
 }
 
 #searchMovie{
@@ -49,7 +46,7 @@ header{
 }
 
 footer{
-    background-image: linear-gradient( deepskyblue, rgb(255, 255, 255));
+    background-image: linear-gradient(purple ,deepskyblue);
     bottom:0;
     padding: 50px;
     background-color: deepskyblue;
@@ -57,7 +54,7 @@ footer{
 
 #tvScreen{
     margin:20px;
-    border: 10px solid saddlebrown;
+    border: 10px solid #ff8000;
     margin-left: auto;
     margin-right: auto;
     width: 500px;
@@ -74,8 +71,8 @@ footer{
     height: 350px;
     background: #c0e1f0;}
 #film{
-    color: darkslategray;
+    color: #ff8000;
 }
 #fetch{
-    color: saddlebrown;
+    color: #ff8000;
 }

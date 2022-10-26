@@ -1,30 +1,35 @@
 # Film-fetch
 
-## Description
+## Description 📄
 
 - The motivation for this project is to create a movie library for your favorite movie at the press of a button.
 - We decided to build this site because we all share a common love for movies and each have different taste in film.
 - What problem does it solve?
 - What did you learn?
 
-## User Story
+## User Story 
 
 
 ## Table of Contents
 
-- [Installation](#installation)
 - [Usage](#usage)
+- [Most-Improved-Skill](#most-improved-skill)
 - [Credits](#credits)
 - [License](#license)
 
-## Installation
-
-- What are the steps required to install your project? Step by step
 
 ## Usage
 
 - Screenshots
 - Instructions & examples
+
+## Most Improved Skill
+
+- Brett Bates " "
+- Tanner Gwyn " "
+- Elijah Linton " "
+- Riley Rahe " "
+- Steven Williams " "
 
 ## Credits
 
