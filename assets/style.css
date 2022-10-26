@@ -25,6 +25,17 @@ header{
     text-align:center;
 }
 
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#logo-container img {
+    text-align: center;
+    display: inline-block;
+    bottom: 0;
+    width: 35%;
+}
+
 #Searchbar{
     flex-wrap: nowrap;
     height: 40px;
