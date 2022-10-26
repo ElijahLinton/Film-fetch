@@ -10,7 +10,8 @@ body{
     display:flex;
     flex-direction: column;
     justify-content: space-around;
-    background-image: linear-gradient( dodgerblue, rgb(255, 255, 255));
+    background-image: ( deepskyblue, rgb(255, 255, 255));
+    background-color: deepskyblue;
 
 }
 
@@ -18,7 +19,9 @@ header{
     background-image: linear-gradient( rgb(255, 255, 255), deepskyblue);
     top:0;
     margin: 0;
-    padding: 50px;
+    padding: 15px;
+    
+
    
     text-align:center ;
 }
@@ -32,6 +35,8 @@ h2 {
     display: inline-block;
     bottom: 0;
     width: 35%;
+    padding: 15px;
+    
 }
 
 #Searchbar{
