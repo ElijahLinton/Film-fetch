@@ -21,7 +21,7 @@ header {
   top: 0;
   margin: 0;
   padding: 50px;
-  text-align: center;
+  text-align: center
 }
 
 h2 {
@@ -74,6 +74,7 @@ footer {
 }
 /*this is where the api text is going to be displayed in a tv like element
  a clever play on the movie theme of webpage*/
+ /* goes hard  */
 #tvScreen {
   margin: 20px;
   border: 10px solid saddlebrown;
