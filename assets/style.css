@@ -81,6 +81,8 @@ footer{
     background: #ffffff;
     border-radius: 60% / 20%;
     text-align: center;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: scroll; /* Add vertical scrollbar */
 }
 
 #searh-history{
