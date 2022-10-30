@@ -60,7 +60,7 @@ footer{
 }
 /*this is where the api text is going to be displayed in a tv like element
  a clever play on the movie theme of webpage*/
-#tvScreen{
+.tvScreen{
     margin:20px;
     border: 10px solid saddlebrown;
     margin-left: auto;
@@ -69,6 +69,18 @@ footer{
     height: 350px;
     background: #0e0b01;
     border-radius: 60% / 20%;
+}
+
+.turnedOn{
+    margin:20px;
+    border: 10px solid saddlebrown;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 350px;
+    background: #ffffff;
+    border-radius: 60% / 20%;
+    text-align: center;
 }
 
 #searh-history{
@@ -132,7 +144,7 @@ footer{
         font-size: 1.5em;
     }
 
-    #tvScreen{
+    .tvScreen{
 
         width: 400px;
         height: 250px;
@@ -169,7 +181,7 @@ footer{
         height: 250px;
     }
 
-    #tvScreen{
+    .tvScreen{
   
         width: 300px;
         height: 150px;
@@ -190,7 +202,7 @@ footer{
         padding:70px;
     }
 
-    #tvScreen{
+    .tvScreen{
   
         width: 220px;
         height: 150px;
