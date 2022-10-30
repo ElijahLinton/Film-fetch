@@ -6,15 +6,25 @@ var userInput = resultTextEl.value
 
 var url = tasteDiveURL + "&search_value=" + userInput
 fetch(url)
-  .then(response => response.json())
-  .then(data => {
-    console.log(data.results)
-  
-  }
-  
-  )
-
-
+.then(response => response.json()) 
+.then(data => {
+  const list = data.results
+  list.map((item)=>{
+    const name = item.name;
+    const movie = `<tr> <h2>${name}</h2> </tr>`
+    document.querySelector('.turnedOn').innerHTML += movie
+  }) 
+})
+if(fetchMovie){
+  var Television = document.querySelector('.tvScreen')
+  Television.classList.remove("tvScreen")
+  Television.classList.add("turnedOn")
 }
+
+ }
+
+
+
+
 
 $('#searchMovie').on('click',fetchMovie)
