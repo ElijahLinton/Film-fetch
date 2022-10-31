@@ -31,5 +31,7 @@ if(fetchMovie){
 }
 
 
+
+
  },{once:true})
 
