@@ -81,8 +81,8 @@ footer{
     background: #ffffff;
     border-radius: 60% / 20%;
     text-align: center;
-    overflow-x: hidden; /* Hide horizontal scrollbar */
-    overflow-y: scroll; /* Add vertical scrollbar */
+    overflow-x: hidden;
+    overflow-y: scroll; 
 }
 
 #searh-history{
@@ -152,6 +152,11 @@ footer{
         height: 250px;
     
     }
+
+    .turnedOn{
+        width: 400px;
+        height: 250px;
+    }
        
 }
 
@@ -190,6 +195,10 @@ footer{
 
     }
 
+    .turnedOn{
+        width: 300px;
+        height: 150px;
+    }
 }
 
 
@@ -209,6 +218,11 @@ footer{
         width: 220px;
         height: 150px;
 
+    }
+
+    .turnedOn{
+        width: 220px;
+        height: 150px;
     }
 
 }

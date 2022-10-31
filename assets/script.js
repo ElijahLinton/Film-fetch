@@ -14,13 +14,15 @@ fetch(url)
   list.map((item)=>{
     const name = item.name;
     const poster = item.image_url
-    const movie = `<tr> <img src="${poster}"> <h2>${name}</h2> </tr>`
+    const date = item.year
+    const popular = item.relevance
+    const movie = `<tr> <img src="${poster}"> <h2>${name}</h2> <p>release date: ${date}</p> <p> relevance:${popular}</p></tr>`
     document.querySelector('.turnedOn').innerHTML += movie
   }) 
 })
 if(userInput === ""){
   alert("invalid: please make sure to type a movie.")
-
+    location.reload();
 } 
 if(fetchMovie){
   var Television = document.querySelector('.tvScreen')
