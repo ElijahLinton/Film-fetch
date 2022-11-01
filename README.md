@@ -21,8 +21,12 @@
 
 ## Usage
 
-- Screenshots
-- Instructions & examples
+[Film Fetch.webm](https://user-images.githubusercontent.com/112358173/199358849-ee71c0bf-a377-4d1f-88cb-2ef76404dc55.webm)
+
+* Step 1: Load the Webpage.
+* Step 2: Enter a movie title into the search bar.
+* Step 3: Press the search button.
+* Step 4: Scroll through the list of movies provided.
 
 ## Credits
 
