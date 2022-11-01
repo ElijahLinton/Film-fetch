@@ -1,30 +1,30 @@
+/*added the font style to give a cartoonish like feel to the clever name film fetch*/
 @font-face {
     font-family: "acme";
     src: url("Acme-Regular.ttf");
 }
 
-* {
+*{
     font-family: "Acme";
-    margin: 0; }
-body {
+    margin: 0;
+}
+/*gave the background color a linear gradient to give the webpage an appealing look to the user*/
+body{
     display:flex;
     flex-direction: column;
     justify-content: space-around;
-    background-image: ( deepskyblue, rgb(255, 255, 255));
-    background-color: deepskyblue;
+    background-image: linear-gradient( dodgerblue, rgb(255, 255, 255));
 
 }
-
-header {
+/*gave the header a linear gradient a different gradient format differentiate from the header and body */
+header{
     background-image: linear-gradient( rgb(255, 255, 255), deepskyblue);
     top:0;
     margin: 0;
-    padding: 15px;
-    
-
-   
-    text-align:center ;
+    padding: 50px;
+    text-align:center;
 }
+
 
 h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -34,49 +34,48 @@ h2 {
     text-align: center;
     display: inline-block;
     bottom: 0;
-    width: 300px;
-    
-    padding: 15px;
-    
+    width: 35%;
 }
 
-#Searchbar {
+#Searchbar{
     flex-wrap: nowrap;
     height: 40px;
     width: 538px;
-    
 }
 
-#Searchbar:hover {
+#Searchbar:hover{
     background-color: whitesmoke;
-    cursor: pointer;
 }
 
-#searchMovie {
+#searchMovie{
     flex-wrap: nowrap;
     border:1px solid rgb(133, 133, 133);
     border-radius:0px 5px 5px 0px;
     margin-left: -6px;
     width: 64px;
     height: 46px;
-    cursor: pointer;
 }
 
-#searchbox {
+#searchbox{
     flex-wrap: nowrap;
     margin-left: auto;
     margin-right: auto;
     flex-direction:row-reverse;
 }
 
-footer {
+#topPage{
+scroll-behavior: smooth;
+}
+footer{
     background-image: linear-gradient( deepskyblue, rgb(255, 255, 255));
     bottom:0;
     padding: 50px;
     background-color: deepskyblue;
-    text-align:center ;}
-
-#tvScreen {
+    text-align:center ;
+}
+/*this is where the api text is going to be displayed in a tv like element
+ a clever play on the movie theme of webpage*/
+.tvScreen{
     margin:20px;
     border: 10px solid saddlebrown;
     margin-left: auto;
@@ -85,39 +84,149 @@ footer {
     height: 350px;
     background: #0e0b01;
     border-radius: 60% / 20%;
-    }
-
-#searh-history {
-    text-align: center;
-    border-radius: 10px;
-    margin: 50px;
+}
+.tvScreen:hover{
+    width: 470px;
+    height: 330px;
+    background-image: url("https://media.tenor.com/kbs-kzp0DYUAAAAC/static-tv.gif");
+    border-radius: 60% / 20%;
+    box-shadow:10px #0e0b01;
+}
+.turnedOn{
+    margin:20px;
+    border: 10px solid saddlebrown;
+    margin-left: auto;
+    margin-right: auto;
     width: 500px;
     height: 350px;
-    background: #c0e1f0;
+    background: #ffffff;
+    border-radius: 60% / 20%;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: scroll; 
+}
+
+.turnedOn:hover{
+    width: 470px;
+    height: 330px;
+    background-image: url("https://media.tenor.com/kbs-kzp0DYUAAAAC/static-tv.gif");
+    border-radius: 60% / 20%;
+    box-shadow:10px #0e0b01;
+}
+
+
+/*change the different color to play on popular color theme */
+#film{
+    color: rgb(9, 255, 0);
+}
+/*change both text to different popular color theme in movies*/
+#fetch{
+    color: rgb(255, 255, 255);
+}
+
+#description{
+    font-size: 20px;
+    text-align:center;
+    border-radius: 10px;
+    margin:20px;
+    width: 500px;
+    height: 350px;
+    background: #528096;
+}
+/*media query used to allow user to access the webpage in different devices*/
+@media only screen and (max-width:608px) {
+    #Searchbar{
+    flex-wrap: nowrap;
+    height: 40px;
+    width: 420px;
+    }
+    p{
+        font-size: 16px;
+    } 
+
+    #description{
+   
+        width: 400px;
+        height: 250px;
     
-}
-#film {
-    color: darkslategray;
-}
-#fetch {
-    color: saddlebrown;
+    }
+
+      
+    h1{
+        font-size: 1.5em;
+    }
+
+    .tvScreen{
+
+        width: 400px;
+        height: 250px;
+    
+    }
+
+    .turnedOn{
+        width: 400px;
+        height: 250px;
+    }
+       
 }
 
-#myBtn {
-    display: block; 
-    position: fixed; 
-    bottom: 20px; 
-    right: 30px; 
-    z-index: 99; 
-    border:rgb(133, 133, 133); 
-    outline: none; 
-    background-color: rgb(119, 0, 255); 
-    color: white;
-    cursor: pointer; 
-    padding: 15px; 
-    border-radius: 10px; 
-    font-size: 18px; 
-  }
+@media only screen and (max-width:488px) {
+    #Searchbar{
+        height: 40px;
+        width: 200px;
+    }
 
-  #myBtn:hover {
-    background-color: rgb(96, 246, 3);}
+    header{
+        width:100%;
+        padding:30px;
+    }
+
+    footer{
+        width:100%;
+        padding:30px;
+    }
+
+    #description{
+        margin:20px;
+        width: 300px;
+        height: 250px;
+    }
+
+    .tvScreen{
+  
+        width: 300px;
+        height: 150px;
+
+    }
+
+    .turnedOn{
+        width: 300px;
+        height: 150px;
+    }
+}
+
+
+@media only screen and (max-width:333px) {
+    header{
+        width:100%;
+        padding:70px;
+    }
+
+    footer{
+        width:100%;
+        padding:70px;
+    }
+
+    .tvScreen{
+  
+        width: 220px;
+        height: 150px;
+
+    }
+
+    .turnedOn{
+        width: 220px;
+        height: 150px;
+    }
+
+}
