@@ -13,8 +13,8 @@ body{
     display:flex;
     flex-direction: column;
     justify-content: space-around;
-    background-image: ( deepskyblue, rgb(255, 255, 255));
-    background-color: deepskyblue;
+    background-image: linear-gradient( deepskyblue, rgb(255, 255, 255));
+    
 
 }
 /*gave the header a linear gradient a different gradient format differentiate from the header and body */
