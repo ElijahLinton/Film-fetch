@@ -1,3 +1,4 @@
+/*added the font style to give a cartoonish like feel to the clever name film fetch*/
 @font-face {
     font-family: "acme";
     src: url("Acme-Regular.ttf");
@@ -5,8 +6,15 @@
 
 * {
     font-family: "Acme";
+<<<<<<< HEAD
     margin: 0; }
 body {
+=======
+    margin: 0;
+}
+/*gave the background color a linear gradient to give the webpage an appealing look to the user*/
+body{
+>>>>>>> main
     display:flex;
     flex-direction: column;
     justify-content: space-around;
@@ -14,6 +22,7 @@ body {
     background-color: deepskyblue;
 
 }
+<<<<<<< HEAD
 
 header {
     background-image: linear-gradient( rgb(255, 255, 255), deepskyblue);
@@ -24,7 +33,17 @@ header {
 
    
     text-align:center ;
+=======
+/*gave the header a linear gradient a different gradient format differentiate from the header and body */
+header{
+    background-image: linear-gradient( rgb(255, 255, 255), deepskyblue);
+    top:0;
+    margin: 0;
+    padding: 50px;
+    text-align:center;
+>>>>>>> main
 }
+
 
 h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -59,7 +78,10 @@ h2 {
     margin-left: -6px;
     width: 64px;
     height: 46px;
+<<<<<<< HEAD
     cursor: pointer;
+=======
+>>>>>>> main
 }
 
 #searchbox {
@@ -69,14 +91,29 @@ h2 {
     flex-direction:row-reverse;
 }
 
+<<<<<<< HEAD
 footer {
+=======
+#topPage{
+scroll-behavior: smooth;
+}
+footer{
+>>>>>>> main
     background-image: linear-gradient( deepskyblue, rgb(255, 255, 255));
     bottom:0;
     padding: 50px;
     background-color: deepskyblue;
+<<<<<<< HEAD
     text-align:center ;}
 
 #tvScreen {
+=======
+    text-align:center ;
+}
+/*this is where the api text is going to be displayed in a tv like element
+ a clever play on the movie theme of webpage*/
+.tvScreen{
+>>>>>>> main
     margin:20px;
     border: 10px solid saddlebrown;
     margin-left: auto;
@@ -85,14 +122,59 @@ footer {
     height: 350px;
     background: #0e0b01;
     border-radius: 60% / 20%;
-    }
+}
+.tvScreen:hover{
+    width: 470px;
+    height: 330px;
+    background-image: url("https://media.tenor.com/kbs-kzp0DYUAAAAC/static-tv.gif");
+    border-radius: 60% / 20%;
+    box-shadow:10px #0e0b01;
+}
+.turnedOn{
+    margin:20px;
+    border: 10px solid saddlebrown;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 350px;
+    background: #ffffff;
+    border-radius: 60% / 20%;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: scroll; 
+}
 
+<<<<<<< HEAD
 #searh-history {
     text-align: center;
+=======
+.turnedOn:hover{
+    width: 470px;
+    height: 330px;
+    background-image: url("https://media.tenor.com/kbs-kzp0DYUAAAAC/static-tv.gif");
+    border-radius: 60% / 20%;
+    box-shadow:10px #0e0b01;
+}
+
+
+/*change the different color to play on popular color theme */
+#film{
+    color: rgb(9, 255, 0);
+}
+/*change both text to different popular color theme in movies*/
+#fetch{
+    color: rgb(255, 255, 255);
+}
+
+#description{
+    font-size: 20px;
+    text-align:center;
+>>>>>>> main
     border-radius: 10px;
     margin: 50px;
     width: 500px;
     height: 350px;
+<<<<<<< HEAD
     background: #c0e1f0;
     
 }
@@ -121,3 +203,104 @@ footer {
 
   #myBtn:hover {
     background-color: rgb(96, 246, 3);}
+=======
+    background: #528096;
+}
+/*media query used to allow user to access the webpage in different devices*/
+@media only screen and (max-width:608px) {
+    #Searchbar{
+    flex-wrap: nowrap;
+    height: 40px;
+    width: 420px;
+    }
+    p{
+        font-size: 16px;
+    } 
+
+    #description{
+   
+        width: 400px;
+        height: 250px;
+    
+    }
+
+      
+    h1{
+        font-size: 1.5em;
+    }
+
+    .tvScreen{
+
+        width: 400px;
+        height: 250px;
+    
+    }
+
+    .turnedOn{
+        width: 400px;
+        height: 250px;
+    }
+       
+}
+
+@media only screen and (max-width:488px) {
+    #Searchbar{
+        height: 40px;
+        width: 200px;
+    }
+
+    header{
+        width:100%;
+        padding:30px;
+    }
+
+    footer{
+        width:100%;
+        padding:30px;
+    }
+
+    #description{
+        margin:20px;
+        width: 300px;
+        height: 250px;
+    }
+
+    .tvScreen{
+  
+        width: 300px;
+        height: 150px;
+
+    }
+
+    .turnedOn{
+        width: 300px;
+        height: 150px;
+    }
+}
+
+
+@media only screen and (max-width:333px) {
+    header{
+        width:100%;
+        padding:70px;
+    }
+
+    footer{
+        width:100%;
+        padding:70px;
+    }
+
+    .tvScreen{
+  
+        width: 220px;
+        height: 150px;
+
+    }
+
+    .turnedOn{
+        width: 220px;
+        height: 150px;
+    }
+
+}
+>>>>>>> main
