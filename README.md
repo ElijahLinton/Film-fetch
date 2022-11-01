@@ -21,7 +21,7 @@
 
 ## Usage
 
-[Film Fetch.webm](https://user-images.githubusercontent.com/112358173/199361307-19f00c28-d1f9-4028-bfc6-a7d43fd3b827.webm)
+![Film Fetch (1)](https://user-images.githubusercontent.com/112358173/199362203-7d73b858-af0a-410c-867c-b82b9a561071.gif)
 
 * Step 1: Load the Webpage.
 * Step 2: Enter a movie title into the search bar.
